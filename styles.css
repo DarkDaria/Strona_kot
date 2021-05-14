@@ -1,0 +1,83 @@
+footer {
+    background-color: rgb(255, 0, 255);
+    float: none;
+}
+
+.header_content {
+    text-align: center;
+    background: #f9f7f7;
+    margin: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+#logo {
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #796e6e;
+    border-radius: 1em;
+  }
+.nav {
+    background-color: rgb(43, 255, 0)
+}
+
+.content {
+    background-color: rgb(255, 255, 255);
+    padding:10px
+}
+
+.content_left {
+    background-color: #f1f1f1;
+    float: left;
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 30px solid rgb(115, 77, 146);
+}
+
+.content_right {
+    background-color: #f1f1f1;
+    float: right;
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 30px solid green;
+}
+.content_center{
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    box-sizing: border-box;
+    border: 30px solid green;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+img {
+    max-width: 100%;
+  }
+/* Use a media query to add a break point at 800px: */
+
+@media screen and (max-width:800px) {
+    .content_left, .content_right {
+        width: 100%;
+        /* The width is 100%, when the viewport is 800px or smaller */
+    }
+}
